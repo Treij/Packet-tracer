@@ -1,5 +1,5 @@
-// konfigurace portu
-Switch(config)#int <port[fa 0/2]> // fast ethernet
+##konfigurace portu  
+´Switch(config)#int <port[fa 0/2]>´ // fast ethernet
 Switch(config)#int <port[po 0/2]> // port channel
 
 // konfigurace vlan
