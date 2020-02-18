@@ -83,4 +83,6 @@
 
 ### Výpis info
 `Router#sh standby`, eventuelně `Router#sh standby brief`
-
+## Lámání hesel
+Nejprve musíme přerušit bootování. Při vypisování #### stiskneme `Ctrl + Break`
+`rommon 1 > confreg 0x2142`
